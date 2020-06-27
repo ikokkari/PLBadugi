@@ -6,4 +6,6 @@ Badugi is a variation of [lowball draw poker](https://en.wikipedia.org/wiki/Lowb
 
 Students implement their agents as Java classes that implement the interface `PLBadugiPlayer` that defines the methods assumed by the game engine `PLBadugiRunner`. This engine easily be used to organize a heads-up tournaments between any number of participating agents, which allows the students to organize their own mini-tournaments before the main event. In the final rumble, every agent plays against every other agent a large enough number of hands to eliminate the effect of luck. The student who wrote the winning agent has canonically received the entirely ceremonial title of "The Fastest Gun East of Mississauga" to honor this achievement.
 
+Two implementations of `PLBadugiPlayer` are provided for students to sharpen their agents against. The agent `IlkkaPlayer3` is a modest rule-based approach, whereas `RLPlayer` was trained to play with reinforcement learning.
+
 All instructors of intro courses on artificial intelligence are welcome to use, adapt and distribute this code. All source code and the specification document are released under GNU General Public License v3.
